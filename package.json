@@ -1,6 +1,6 @@
 {
-  "name": "quickstart",
-  "version": "0.0.1",
+  "name": "angular-quickstart",
+  "version": "0.0.2",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
