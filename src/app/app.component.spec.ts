@@ -1,4 +1,4 @@
-import { TestBed, async } from '@angular/core/testing';
+import { async, TestBed } from '@angular/core/testing';
 
 import { AppComponent } from './app.component';
 
@@ -27,6 +27,7 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to app!');
+    expect(compiled.querySelector('h1').textContent)
+      .toContain('Welcome to app!');
   }));
 });
